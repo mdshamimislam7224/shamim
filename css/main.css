@@ -1442,7 +1442,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-2 .skill-percentage {
-  width: 65%;
+  width: 95%;
 }
 
 .skills-second-style .skill-container.skill-3 .skill-percentage {
@@ -1450,19 +1450,19 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-4 .skill-percentage {
-  width: 90%;
+  width: 80%;
 }
 
 .skills-second-style .skill-container.skill-5 .skill-percentage {
-  width: 95%;
+  width: 90%;
 }
 
 .skills-second-style .skill-container.skill-6 .skill-percentage {
-  width: 85%;
+  width: 50%;
 }
 
 .skills-second-style .skill-container.skill-7 .skill-percentage {
-  width: 100%;
+  width: 90%;
 }
 
 .skills-second-style .skill-container.skill-8 .skill-percentage {
@@ -1470,7 +1470,16 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-9 .skill-percentage {
-  width: 90%;
+  width: 80%;
+}
+.skills-second-style .skill-container.skill-10 .skill-percentage {
+  width: 50%;
+}
+.skills-second-style .skill-container.skill-11 .skill-percentage {
+  width: 40%;
+}
+.skills-second-style .skill-container.skill-12 .skill-percentage {
+  width: 60%;
 }
 
 /* --- End of Skills Values --- */
@@ -2017,7 +2026,7 @@ textarea.form-control, textarea.form-control:focus {
 .portfolio-page-video,
 .portfolio-page-carousel,
 .portfolio-page-image {
-  position: relative;
+  object-fit: cover;
   width: 100%;
   margin-bottom: 20px;
 }
